@@ -61,7 +61,7 @@
 
 <header>
   <h1>Gizlilik Politikası</h1>
-  <p class="sub">MMA Career mobil uygulaması &middot; Son güncelleme: 26 Eyl&uuml;l 2026</p>
+  <p class="sub">MMA Career mobil uygulaması &middot; Son güncelleme: 21 Ekim 2026</p>
 </header>
 
 <p>Bu politika, uygulamayı kullanan ziyaret&ccedil;ilerin, geli&#287;ştiricilerin ve oyuncular&#305;n gizlilik haklar&#305;n&#305; nas&#305;l korudu&#287;umuzu a&ccedil;klar. Uygulamay&#305; indirip oynayan her ki&#351;i bu metni kabul etmi&#351; say&#305;l&#305;r.</p>
@@ -139,6 +139,14 @@
 <p>Uygulama &#351;unlar&#305; <strong>toplamaz</strong>: ad, soyad, e-posta adresi, telefon numaras&#305;, konum, adres defteri, arama kayd&#305;, foto&#287;raf galerisi, sa&#287;l&#305;k verisi, finansal veri, &ccedil;ocuk bilgisi veya reklam d&#305;&#351;&#305; &uuml;&ccedil;&uuml;nc&uuml; taraf analiti&#287;i.</p>
 <p>Oyun i&ccedil;i takma ad (lakap) kullan&#305;c&#305; taraf&#305;ndan belirlenir ve cihazda kal&#305;r.</p>
 
+<h3>3.6 Sat&#305;n alma do&#287;rulamas&#305; (Cloudflare)</h3>
+<p>Oyun i&ccedil;i paket sat&#305;n al&#305;nd&#305;&#287;&#305;nda Google Play'in verdi&#287;i <strong>sat&#305;n alma jetonu</strong>, paket kimli&#287;i ve uygulama paket ad&#305;, bizim i&ccedil;in &ccedil;al&#305;&#351;an do&#287;rulama sunucusuna (Cloudflare Workers) g&ouml;nderilir. Sunucu bu jetonu Google Play Developer API ile kontrol eder.</p>
+<p>Ama&ccedil;: sahte / iade edilmi&#351; sat&#305;n almalar&#305; engellemek (doland&#305;r&#305;c&#305;l&#305;k &ouml;nleme) ve ilk al&#305;c&#305; hediyesini da&#287;&#305;tmak. Sunucu ad, e-posta veya Google hesab&#305; bilgisi almaz ve saklamaz. Yaln&#305;z hediye kazanan sat&#305;n almalar i&ccedil;in <strong>sipari&#351; numaras&#305;</strong>, jetonun tek y&ouml;nl&uuml; <strong>&ouml;zeti (SHA-256)</strong> ve kazanma zaman&#305; saklan&#305;r; jetonun kendisi saklanmaz.</p>
+<p>Veri i&#351;leyen: <strong>Cloudflare, Inc.</strong></p>
+
+<h3>3.7 Kamera ve foto&#287;raf (edit&ouml;r)</h3>
+<p>Dov&uuml;&#351;&ccedil;&uuml; edit&ouml;r&uuml;nde iste&#287;e ba&#287;l&#305; olarak kamerayla foto&#287;raf &ccedil;ekebilir ya da galeriden bir foto&#287;raf se&ccedil;ebilirsiniz. Kamera izni yaln&#305;z siz bu se&ccedil;ene&#287;e dokundu&#287;unuzda istenir. Foto&#287;raf <strong>yaln&#305;z cihazda</strong> i&#351;lenir ve saklan&#305;r; sunucuya g&ouml;nderilmez ve &uuml;&ccedil;&uuml;nc&uuml; taraflarla payla&#351;&#305;lmaz.</p>
+
 <h2 id="s4">4. &Ccedil;erezler</h2>
 <p>Bu uygulama web sitesi formunda &ccedil;al&#305;&#351;maz, dolay&#305;s&#305;yla <strong>taray&#305;c&#305; &ccedil;erezi kullanmaz</strong>. Reklam kimliklendirmesi cihaz &uuml;zerinde reklam SDK's&#305; taraf&#305;ndan yap&#305;l&#305;r; bu bir &ccedil;erez de&#287;il, cihaz &uuml;zerinde saklanan bir uygulama kimli&#287;idir. Reklam kimli&#287;i ayarlar&#305;n&#305;zdan s&#305;f&#305;rlanabilir.</p>
 
@@ -146,7 +154,7 @@
 <ul>
   <li>Veriler TLS &#351;ifreli iletilir.</li>
   <li>Uygulama a&ccedil;&#305;k metin HTTP trafi&#287;i kullanmaz.</li>
-  <li>Veritaban&#305; yoktur; ki&#351;isel veri toplayan bir sunucu taraf&#305; &ccedil;al&#305;&#351;t&#305;r&#305;lmaz.</li>
+  <li>Ki&#351;isel veri toplayan bir veritaban&#305; yoktur. Tek sunucu taraf&#305; sat&#305;n alma do&#287;rulamas&#305;d&#305;r (bkz. 3.6); yaln&#305;z hediye kazanan sipari&#351; numaras&#305; ve jeton &ouml;zeti saklan&#305;r.</li>
   <li>Veri sorumlusunun verileri kendi sunucusunda saklan&#305;r; &uuml;&ccedil;&uuml;nc&uuml; taraf reklam a&#287;&#305; d&#305;&#351;&#305;nda ba&#351;ka bir kimlik sa&#287;lay&#305;c&#305;ya sat&#305;lmaz, payla&#351;&#305;lmaz veya kiralanmaz.</li>
 </ul>
 
@@ -155,6 +163,7 @@
   <tr><th>Sa&#287;lay&#305;c&#305;</th><th>Ama&ccedil;</th><th>Politika</th></tr>
   <tr><td>Google AdMob</td><td>Reklam</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
   <tr><td>Google Firebase</td><td>Kaza kayd&#305;</td><td><a href="https://firebase.google.com/support/privacy" rel="noopener">firebase.google.com/support/privacy</a></td></tr>
+  <tr><td>Cloudflare Workers</td><td>Sat&#305;n alma do&#287;rulamas&#305;, ilk al&#305;c&#305; hediyesi</td><td><a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a></td></tr>
   <tr><td>Google Forms</td><td>Geri bildirim al&#305;m&#305;</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
 </table>
 
@@ -173,7 +182,7 @@
 <p>Bu politikan&#305;n uygulanmas&#305;ndan do&#287;an uyu&#351;mazl&#305;klar T&uuml;rkiye Kanunlar&#305;'na tabidir. Konya &Igrave;simli ve Sosyal Mahkemeleri ve &Igrave;cra Daireleri yetkilidir.</p>
 
 <footer>
-  <p><strong>Son g&uuml;ncelleme:</strong> 26 Eyl&uuml;l 2026 &middot; <strong>Uygulama s&uuml;r&uuml;m&uuml;:</strong> 0.3</p>
+  <p><strong>Son g&uuml;ncelleme:</strong> 21 Ekim 2026 &middot; <strong>Uygulama s&uuml;r&uuml;m&uuml;:</strong> 0.4.94</p>
 </footer>
 
 </main>
